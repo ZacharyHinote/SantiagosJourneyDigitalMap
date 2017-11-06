@@ -24,12 +24,12 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
   if (n == 1) {
-    document.getElementById("h1").innerHTML = "Spain, Andalusia";
+    document.getElementById("hOne").innerHTML = "Spain, Andalusia";
   }
   if (n == 2) {
-    document.getElementById("h1").innerHTML = "Spain, Tarifa";
+    document.getElementById("hOne").innerHTML = "Spain, Tarifa";
   }
   if (n == 3) {
-    document.getElementById("h1").innerHTML = "Africa, Tangier";
+    document.getElementById("hOne").innerHTML = "Africa, Tangier";
   }
 }
