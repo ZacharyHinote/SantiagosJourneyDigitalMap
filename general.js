@@ -23,5 +23,13 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
-    document.getElementById("paragraph").innerHTML = n.toString();
+  if (n == 1) {
+    document.getElementById("paragraph").innerHTML = "Spain, Andalusia";
+  }
+  if (n == 2) {
+    document.getElementById("paragraph").innerHTML = "Spain, Tarifa";
+  }
+  if (n == 3) {
+    document.getElementById("paragraph").innerHTML = "Africa, Tangier";
+  }
 }
