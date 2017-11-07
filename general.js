@@ -32,4 +32,7 @@ function showSlides(n) {
   if (n == 3) {
     document.getElementById("hOne").innerHTML = "Africa, Tangier";
   }
+  if (n == 4) {
+    document.getElementById("hOne").innerHTML = "Sahara Desert, Egypt";
+  }
 }
