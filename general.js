@@ -3,6 +3,8 @@ showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
+  if (n == 1) {
+    document.getElementById("hOne").innerHTML = "Spain, Andalusia";
 }
 
 function currentSlide(n) {
