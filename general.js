@@ -15,7 +15,11 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
+  if (n > slides.length) {
+    slideIndex = 1
+    document.getElementById("hOne").innerHTML = "Spain, Andalusia";
+    document.getElementById("Para").innerHTML = "<a href=\"https://en.wikipedia.org/wiki/Andalusia\">Spain, Andalusia</a>";
+  } 
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none"; 
@@ -27,9 +31,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   if (n == 1) {
     document.getElementById("hOne").innerHTML = "Spain, Andalusia";
+    document.getElementById("Para").innerHTML = "<a href=\"https://en.wikipedia.org/wiki/Andalusia\">Spain, Andalusia</a>";
   }
   if (n == 2) {
     document.getElementById("hOne").innerHTML = "Spain, Tarifa";
+    
   }
   if (n == 3) {
     document.getElementById("hOne").innerHTML = "Africa, Tangier";
