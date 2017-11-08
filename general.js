@@ -17,8 +17,6 @@ function showSlides(n) {
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {
     slideIndex = 1
-    document.getElementById("hOne").innerHTML = "Spain, Andalusia";
-    document.getElementById("Para").innerHTML = "<a href=\"https://en.wikipedia.org/wiki/Andalusia\">Spain, Andalusia</a>";
   } 
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
