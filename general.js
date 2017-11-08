@@ -40,4 +40,7 @@ function showSlides(n) {
   if (n == 5) {
     document.getElementById("hOne").innerHTML = "The Oasis in the Sahara Desert";
   }
+  if (n == 6) {
+    document.getElementById("hOne").innerHTML = "The Egyptian Pyramids";
+  }
 }
